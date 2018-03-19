@@ -1,13 +1,3 @@
-cp=String(35,"=")
-
-WScript.Echo cp & VbCrLf& "---===Check Update ver. 1.0===---" & VbCrLf
-
-WScript.Echo "[Date & Time launch script]: "  &  Date() & " " & Time()
-Set wshShell=CreateObject ("WSCript.Shell")
-strValue="HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Hostname"
-Hostname= wshShell.RegRead(strValue)
-WScript.Echo "[Hostname]: " & Hostname &VbCrLf & cp
-
 'ServerSelection values
 ssDefault = 0
 ssManagedServer   = 1
@@ -137,8 +127,3 @@ If (strInput = "Y" or strInput = "y") Then
         ": " & installationResult.GetUpdateResult(i).ResultCode 		
     Next
 End If
-
-
-Set objShell = Wscript.CreateObject("Wscript.Shell")
-objShell.run("notepad.exe")
-Wscript.Echo VbCrLf & "uruchamiam notatnik"

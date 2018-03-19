@@ -8,8 +8,8 @@ Set objNetwork = CreateObject("WScript.Network")
 'Drive letters and paths
 strDriveLetter1 = "Z:"
 strDriveLetter2 = "S:"
-strRemotePath1 =  "\\storage\admins"
-strRemotePath2 = "https:\\sharepoint.tbscg.com"
+strRemotePath1 =  "\\storage\directory"
+strRemotePath2 = "https:\\sharepoint-test.com"
 
 ' Remove all network drives
 objNetwork.RemoveNetworkDrive strDriveLetter1, True, True
