@@ -1,5 +1,7 @@
 # List of scripts #
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 * bios.vbs
 * CheckUpdates.vbs
 * check_upd.vbs
